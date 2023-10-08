@@ -1,0 +1,168 @@
+body
+   font-family: 'Inter', sans-serif
+   background: #ffff
+   font-size: 16px
+   font-style: normal
+   font-weight: 300
+   line-height: 26px
+   color: #000
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $or
+.container
+   padding: 0 15px
+   max-width: 1475px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.d-flex, .q
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   font-family: 'Montserrat', sans-serif
+   color: #FFF
+   font-size: 40px
+   font-style: normal
+   font-weight: 800
+   line-height: 50px
+   text-transform: uppercase
+   margin: 0
+   span 
+      border-radius: 10px
+      color: $or
+      padding: 0px 5px
+      background: #1E1E1E
+h2 
+   margin: 0
+   font-family: 'Montserrat', sans-serif
+   color: #1E1E1E
+   font-size: 35px
+   font-style: normal
+   font-weight: 800
+   line-height: 45px
+.sub 
+   margin-top: 21px
+   width: 100%
+   max-width: 546px
+   color: #383838
+.or 
+   color: $or
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg 
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $or !important
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $or !important
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $or
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 4px
+   width: 4px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $or
+   border-radius: 6px
+.vieo__box::-webkit-scrollbar 
+   height: 1px
+   width: 1px
+.video__box::-webkit-scrollbar-track 
+   background: transparent
+   border-radius: 3px
+.video__box::-webkit-scrollbar-thumb 
+   background-color: transparent
+   border-radius: 6px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: center
+   width: 186px
+   height: 52.593px
+   border-radius: 10px
+   filter: drop-shadow(0px 23px 62px #FF822E)
+   background: $or
+   line-height: normal
+   color: #FFF
+   text-align: center
+   font-size: 16px
+   font-style: normal
+   font-weight: 500
+   line-height: normal
+   border: 1px solid $or
+   &:hover 
+      background: white 
+      color: #1E1E1E
+      filter: inherit
+   &_2
+      filter: drop-shadow(0px 23px 62px #FFF)
+      color: #1E1E1E
+      background: white
+      border: 1px solid white
+      &:hover 
+         color: #1E1E1E
+         border: 1px solid $or
+   &_3 
+      background: #FFEBDE
+      color: $or
+      filter: inherit
+      font-size: 15px
+      font-weight: 400
+      border: none
+      &:hover 
+         color: white
+         background: $or
