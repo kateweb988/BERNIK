@@ -6,7 +6,7 @@
    width: 12px
    height: 12px
    fill: white
-   z-index: 20
+   z-index: 20s
    &:hover 
       transform: rotate(90deg)
       fill: $or
@@ -1350,6 +1350,7 @@ picture
       width: 100%
       max-width: 827px
       p 
+         color: #383838
          margin-bottom: 20px
          &:last-child
             margin-bottom: 0
@@ -1778,6 +1779,7 @@ picture
       font-weight: 500
       line-height: 28px
       padding-right: 10px
+      font-family: 'Montserrat', sans-serif
       width: 94%
       transition: 0.5s 
    .art__item:hover 
@@ -1878,3 +1880,876 @@ picture
          background: black
    #map 
       height: 700px
+.ab 
+   h1 
+      span 
+         background: transparent
+   .text__box 
+      margin-top: 65px
+      justify-content: space-between
+   .text__el
+      max-width: 526px 
+      text-align: left
+      margin: 90px 15px 0 65px
+   .text__content
+      text-align: left
+      margin-right: 0
+      h2 
+         font-size: 46px
+      &::before
+         top: 151px
+         left: 4px
+      &:after 
+         bottom: -48px
+         right: -16px
+   &__sub 
+      margin-top: 5px
+      padding-bottom: 33px
+      color: #383838
+      border-bottom: 1px solid #EDEDED
+   .par__right
+      margin: 90px 0 98px 
+      max-width: 100%
+      padding: 0 56px
+   &-box 
+      justify-content: space-between
+      flex-wrap: wrap  
+      margin: 56px 0 120px
+      &__item 
+         width: 31.68%
+         height: 246.111px
+         border-radius: 20px
+         background: #F6F6F6
+         padding: 28px 40px
+         margin-bottom: 33px
+      &__top 
+         align-items: center 
+      &__num 
+         font-size: 26px
+         font-weight: 800
+         line-height: 45px
+         margin-right: 21px
+         color: $or
+         font-family: 'Montserrat', sans-serif
+      &__name 
+         color: #1E1E1E
+         font-family: 'Montserrat', sans-serif
+         font-size: 26px
+         font-style: normal
+         font-weight: 800
+         line-height: 45px
+      &__text 
+         margin-top: 6px 
+         color: #383838
+   &-wrap 
+      &__item 
+         justify-content: space-between
+         align-items: center
+         margin-bottom: 100px
+         h2 
+            margin-bottom: 30px
+         &:last-child
+            margin-bottom: 0
+            .ab-wrap__content
+               position: relative
+               left: -40px
+      &__content 
+         width: 100%
+         max-width: 576px
+         p 
+            color: #383838
+            margin-bottom: 25px
+            &:last-child
+               margin-bottom: 0
+.rec 
+   padding: 0px 0 120px
+   &__pic 
+      width: 100%
+      border-radius: 20px
+   .swiper4 
+      width: 94.5%
+      height: auto !important
+   &__link 
+      justify-content: center
+      margin-top: 29px
+      p 
+         transition: 0.5s 
+         color: #000
+         font-size: 14px
+         margin-left: 10px
+      &:hover 
+         p 
+            color: $or
+.write 
+   padding: 120px 0  0
+   background: linear-gradient(180deg, #F9F9F9 0%, #FFF 100%)
+   h2 
+      font-size: 55px
+      line-height: 65px
+   &__box 
+      justify-content: space-between
+      align-items: flex-start
+   &__wrap 
+      width: 100%
+      margin-left: 244px
+      max-width: 573px
+      height: 648px
+      border-radius: 20px
+      filter: drop-shadow(0px 40px 50px rgba(0, 0, 0, 0.10))
+      background: #FFF
+      padding: 50px 68px
+      form 
+         margin-top: 0
+      .item__one
+         margin-right: 0
+         width: 100%
+         margin-bottom: 23px
+         textarea 
+            background: #F2F2F2
+            max-width: 100% 
+            border: 1px solid #F2F2F2
+            min-height: 134px
+            border-radius: 10px
+            font-size: 15px
+            padding: 22px 0 0 25px
+            width: 100%
+      button 
+         width: 100%
+      .item__info
+         font-size: 13px
+         line-height: normal 
+         margin-top: 28px
+         text-align: center
+   &__bottom 
+      margin-top: 113px
+      h2 
+         padding: 24px 16px 17px 24px 
+         background: white 
+         position: relative 
+         width: max-content
+         z-index: 2
+         display: block
+   #map 
+      height: 710px
+      width: 100%
+      margin-top: -60px
+.header-card
+   .header__wrap
+      padding: 436px 0 84px
+   .header__box
+      align-items: center
+      justify-content: space-between
+   &__sum 
+      margin-right: 39px
+      color: #FFF
+      font-size: 30px
+      font-style: normal
+      font-weight: 500
+      line-height: 50px
+      font-family: 'Montserrat', sans-serif
+      text-transform: uppercase
+   &__btn 
+      width: 270px
+   .header__links
+      margin-top: 0
+.van2 
+   padding: 80px 0 99px
+   &__pic 
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      object-fit: cover 
+   &__container 
+      overflow-x: auto 
+   &__item 
+      display: block
+      position: relative
+      width: 100%
+      height: 100%
+      img 
+         width: 100%
+         height: 100%
+         object-fit: cover
+      &:focus 
+         border: none !important
+         outline: inherit !important
+   .swiper7
+      height: 260px
+      margin-bottom: 78px
+      .swiper-slide
+         position: relative
+         height: 100%
+         overflow: hidden
+         &:after 
+            content: ""
+            display: block
+            width: 100%
+            height: 100%
+            position: absolute
+            top: 0
+            transition: 0.5s
+            overflow: hidden
+            border-radius: 20px
+            left: 0
+            z-index: 0
+            opacity: 0
+            background: #FF822E
+            pointer-events: none
+         &:hover 
+            &:after 
+               opacity: 0.5
+            .van2__plus 
+               opacity: 1
+         &:focus 
+            border: none !important
+            outline: inherit !important
+         img 
+            border-radius: 20px
+   &__plus 
+      position: absolute
+      top: 50%
+      width: 82px !important
+      height: 82px !important
+      left: 50%
+      transition: 0.5s
+      margin-left: -41px
+      z-index: 2
+      opacity: 0
+      margin-top: -41px
+      pointer-events: none
+   &__content 
+      margin: 33px 0 78px
+      p 
+         color: #383838
+         margin-bottom: 25px
+         &:last-child
+            margin-bottom: 0
+   .van__item
+      width: auto
+      text-align: center
+      margin-bottom: 0
+      .van__name
+         margin: 10px 0 0
+.plan 
+   padding: 107px 0 0px
+   &__center 
+      position: relative
+      width: 100%
+      max-width: 501px
+      padding: 20px 0
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: 20px
+      background: #FFF
+      left: -10px
+      box-shadow: 0px 11px 99px 0px rgba(0, 0, 0, 0.15)
+   &__left 
+      width: 100% 
+      max-width: 395px
+      h2 
+         margin-bottom: 20px
+      p 
+         margin-bottom: 40px
+         color: #383838
+   &__btn, &__link 
+      width: 270px
+   .swiper4 
+      overflow: hidden
+      width: 328.835px
+      margin: 0 auto
+      height: 560.047px
+      .swiper-slide
+         width: 100%
+         height: 100%
+         img 
+            width: 100%
+            height: 100%
+   &__box 
+      justify-content: space-between
+      align-items: flex-start
+      margin-bottom: 140px
+   .item__arrows
+      position: absolute
+      top: 55%
+      width: 100%
+      right: 0
+      margin-right: 0
+   .swiper-button-prev4
+      left: 40px
+      position: absolute
+      right: inherit
+      margin-right: 0
+   .swiper-button-next4
+      left: inherit 
+      right: 45px
+      position: absolute
+      margin-right: 0
+      bottom: 7px
+   .autoplay-progress2
+      left: inherit 
+      right: 33px
+      top: -46px
+   &__right 
+      width: 100% 
+      max-width: 367px 
+      h3 
+         margin-bottom: 27px
+         margin-top: 0
+         color: #1E1E1E
+         font-family: 'Montserrat', sans-serif
+         font-size: 25px
+         font-style: normal
+         font-weight: 600
+         line-height: 45px
+   &__row 
+      justify-content: space-between
+      align-items: center
+      padding-bottom: 19px
+      border-bottom: 1px solid #EAEAEA
+      margin-bottom: 16px
+      &:last-child
+         border-bottom: none
+         padding-bottom: 0
+         margin-bottom: 0
+   &__block 
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 22px
+      margin-right: 12px
+   &__area 
+      align-items: center
+   &__info, &__text
+      color: #1E1E1E
+      font-family: 'Montserrat', sans-serif
+      font-size: 14px
+      font-style: normal
+      font-weight: 400
+      line-height: normal
+   &__wrap 
+      margin-bottom: 60px
+   &__table 
+      margin-top: 55px
+      .about__see
+         display: none
+   &__more
+      align-items: center
+      justify-content: center
+      margin: 62px auto 0
+      width: 270px
+      height: 52.593px
+      font-size: 16px
+      font-style: normal
+      color: $or
+      font-weight: 500
+      border: 1px dotted $or
+      border-radius: 10px
+      &:hover 
+         background: $or
+         color: white
+   &__last
+      margin-top: 100px
+      position: relative
+      display: flex
+      align-items: center
+      justify-content: center
+      height: 500px
+      img 
+         width: 100%
+         height: 100%
+         object-fit: cover 
+         position: absolute
+         top: 0
+         left: 0
+         z-index: 0
+   &__buy 
+      width: 346.548px
+      font-size: 22px
+      height: 67.504px
+      position: relative
+      z-index: 2
+.scan__table thead tr
+   background: $or
+.scan__table tbody tr:first-child td:nth-child(2)
+   width: auto
+.scan__table
+   width: 100%
+   border-collapse: separate !important
+   border-spacing: 0px !important
+   thead 
+      td
+         text-align: center
+         height: 79px
+         padding: 12px 35px
+         box-sizing: border-box
+         color: #FFF
+         border-right: 1px solid #FFF
+         font-size: 16px
+         font-style: normal
+         font-weight: 600
+         line-height: 26px
+         &:first-child
+            border-radius: 20px 0 0 0px !important
+            text-align: left
+         &:last-child
+            border-radius: 0px 20px 0 0px !important
+   tbody tr:last-child
+      background: #fff
+      td:first-child
+         border-radius: 0px 
+      td:last-child
+         border-radius: 0px
+         border-left: none
+         border-top: none
+   td
+      border: none
+      padding: 24px 35px
+      border-right: 1px solid #FFF
+      color: #1E1E1E
+      font-size: 14px
+      font-style: normal
+      font-weight: 400
+      line-height: 24px
+   tbody
+      td
+         &:first-child
+            width: 374px
+            box-sizing: border-box
+      tr
+         &:nth-child(2n)
+            td
+               background: #F2F2F2
+         img 
+            text-align: center
+            display: block
+            margin: 0 auto
+.item-local 
+   padding: 80px 0 40px !important
+   background: white  
+   .swiper4 
+      overflow: hidden
+   .art__pic
+      height: 250px
+      margin-bottom: 15px
+   .news__time 
+      color: #8F8F8F
+      font-size: 12px
+      font-style: normal
+      font-family: 'Montserrat', sans-serif
+      font-weight: 400
+      line-height: normal
+      margin-bottom: 13px
+   .art__text
+      font-size: 18px
+      color: #000
+      font-weight: 500
+      font-family: 'Montserrat', sans-serif
+      line-height: 28px
+      padding-right: 10px
+      width: 94%
+      transition: 0.5s 
+   .art__item:hover 
+      .art__text
+         color: $or
+.header-local
+   .header__btn
+      width: 270px
+      height: 52.593px
+.van-local 
+   background: linear-gradient(180deg, #F9F9F9 0%, #FFF 100%)
+   padding: 93px 0 0 !important
+   .sub 
+      max-width: 777px
+      margin-bottom: 66px
+   #map 
+      width: 100%
+      height: 748px
+      margin-top: 70px
+.par-local 
+   padding: 120px  0 140px !important
+   .item__bottom
+      position: relative
+   &__fig 
+      position: absolute
+      right: 30px
+      bottom: 0
+      z-index: -1
+.buy 
+   padding: 97px 0 70px
+   background: linear-gradient(180deg, #F9F9F9 0%, #FFF 100%)
+   .sub
+      max-width: 777px
+   &__row 
+      margin-top: 72px
+      justify-content: space-between
+   &__block 
+      width: 22.559%
+      height: 361.519px
+      border-radius: 20px
+      border: 1px solid #E0E0E0
+      background: #FFF
+      padding: 35px 39px
+   &__title 
+      margin-bottom: 28px
+      align-items: center
+      p 
+         color: #1E1E1E
+         font-family: 'Montserrat', sans-serif
+         font-size: 18px
+         font-style: normal
+         font-weight: 500
+         line-height: 28px
+         margin-left: 10px
+   &__result 
+      color: #383838
+      margin-top: 46px
+      text-align: center
+   &__box 
+      justify-content: flex-start
+      margin-top: 60px
+      flex-wrap: wrap
+   &__like 
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      bottom: 137px
+      right: 32px
+      width: 45.24px
+      height: 45.24px
+      background: #FFF
+      filter: drop-shadow(0px 8px 54px rgba(0, 0, 0, 0.15))
+      border-radius: 50%
+      &:hover 
+         background: $or
+         .svg 
+            path 
+               fill: white
+   &__cat 
+      width: 315.685px
+      height: 60.593px
+      margin: 60px auto 0
+   &__item 
+      width: 22.565%
+      margin-bottom: 55px
+      position: relative
+      margin-right: 45px
+      &:nth-child(4n)
+         margin-right: 0
+   &__pic 
+      width: 100%
+      object-fit: cover 
+      border-radius: 20px
+      height: 250px
+      margin-bottom: 16px
+   &__name 
+      font-family: 'Montserrat', sans-serif
+      color: $or
+      font-weight: 400
+      margin-bottom: 17px
+   &__info 
+      align-items: flex-start
+      padding: 15px 0 13px
+      border-top: 1px solid #EAEAEA
+      border-bottom: 1px solid #EAEAEA
+   &__el 
+      align-items: center 
+      margin-right: 30px
+      p 
+         color: #1E1E1E
+         font-family: 'Montserrat', sans-serif
+         font-size: 14px
+         font-style: normal
+         font-weight: 400
+         line-height: normal
+         margin-left: 8px
+      &:last-child
+         margin-right: 0
+   &__sum 
+      margin-top: 17px
+      color: #1E1E1E
+      font-family: 'Montserrat', sans-serif
+      font-size: 18px
+      font-style: normal
+      font-weight: 700
+      line-height: normal
+   &-wrap 
+      margin-top: 126px
+      align-items: flex-end
+      justify-content: space-between
+      &__pic 
+         width: 57.3%
+         height: 515px
+         flex-shrink: 0
+         border-radius: 20px
+         object-fit: cover
+      &__content
+         width: 100%
+         max-width: 520px
+         .sub 
+            margin-bottom: 40px
+      &__row 
+         justify-content: space-between
+         align-items: center
+         width: 100%
+         padding-bottom: 16px
+         border-bottom: 1px solid #ECECEC
+         margin-bottom: 15px
+         &:last-child
+            padding-bottom: 0
+            margin-bottom: 0
+            border-bottom: none
+      &__left 
+         align-items: flex-start
+         p 
+            color: #383838
+            margin-left: 14px
+            position: relative
+            top: 2px
+      &__sum 
+         color: #383838
+         font-size: 16px
+         font-style: normal
+         font-weight: 500
+   &-logos 
+      margin-top: 104px
+      justify-content: space-between
+      flex-wrap: wrap 
+      &__block 
+         align-items: center
+         justify-content: center
+         width: 18.2%
+         margin-bottom: 32px
+         height: 143.24px
+         border-radius: 5px
+         background: #F1F1F1
+   .par__content 
+      p 
+         margin-bottom: 20px
+   .par__bottom
+      margin-bottom: 140px
+      align-items: flex-end
+   .par__right
+      position: relative
+      top: -10px
+   &-photos 
+      margin-top: 72px
+      justify-content: space-between
+      flex-wrap: wrap 
+      &__item 
+         width: 23%
+         position: relative
+         margin-bottom: 40px
+         height: 260px
+         overflow: hidden
+         &:after 
+            content: ""
+            display: block
+            width: 100%
+            height: 100%
+            position: absolute
+            top: 0
+            transition: 0.5s
+            overflow: hidden
+            border-radius: 20px
+            left: 0
+            z-index: 0
+            opacity: 0
+            background: #FF822E
+            pointer-events: none
+         &:hover 
+            &:after 
+               opacity: 0.5
+            .van2__plus 
+               opacity: 1
+         &:focus 
+            border: none !important
+            outline: inherit !important
+      img 
+         border-radius: 20px
+      &__btn 
+         margin: 40px auto 0 
+         width: 233.842px
+         height: 60.593px
+         .svg 
+            margin-left: 10px
+            position: relative
+            top: 2px
+         &:hover 
+            .svg 
+               path 
+                  fill: black
+.custom-checkbox + label::before
+   width: 31px
+   height: 31px
+   max-width: 31px
+   border-radius: 10px
+   background: #EBEBEB
+.custom-checkbox + label
+   color: #1E1E1E
+   font-family: 'Montserrat', sans-serif
+   font-size: 15px
+   font-style: normal
+   font-weight: 400
+   line-height: 28px
+.calc__item 
+   margin-bottom: 20px
+   &:last-child
+      margin-bottom: 0
+.cat 
+   padding-bottom: 0 !important
+   &__bottom 
+      background: linear-gradient(180deg, #F9F9F9 0%, #FFF 100%)
+      padding: 100px 0 110px
+      .item__bottom
+         margin-top: 0
+   .custom-checkbox + label::before
+      width: 23px
+      height: 23px
+      max-width: 23px
+      border-radius: 5px
+      margin-right: 12px
+   .custom-checkbox + label
+      font-size: 14px
+   .custom-checkbox:checked + label::before
+      background-size: 14px
+   .calc__item
+      margin-bottom: 17px
+   &__box 
+      margin-top: 60px
+   &__content 
+      align-items: flex-start
+      justify-content: space-between
+      width: 100%
+   &__info 
+      width: 326px
+      flex: 1 0 auto 
+      max-width: 326px
+      border-radius: 20px
+      margin-right: 55px
+      border: 1px solid #E2E2E2
+      background: #FFF
+      padding: 26px 30px 45px
+   .accordeon, .accordeon2, .accordeon3, .accordeon4, .accordeon5,  .accordeon6
+      padding: 5px 0 17px
+      border-bottom: 1px solid #E2E2E2
+      margin-bottom: 22px
+      width: 100%
+   .accordeon__item 
+      width: 100%
+      list-style-type: none
+      margin-bottom: 0
+      padding-bottom: 0
+      border-bottom: none
+   .accordeon__item:first-child .accordeon__button
+      margin-top: 0
+   .accordeon__button, .accordeon__button2, .accordeon__button3, .accordeon__button4, .accordeon__button5, .accordeon__button6
+      width: 100%
+      text-align: left
+      border: none
+      cursor: pointer
+      position: relative
+      transition: all 0.5s ease
+      display: flex
+      justify-content: space-between
+      color: #1E1E1E
+      font-size: 15px
+      font-style: normal
+      font-weight: 500
+      font-family: 'Montserrat', sans-serif
+      line-height: 28px
+   .accordeon__button:hover, .accordeon__button2:hover, .accordeon__button3:hover, .accordeon__button4:hover, .accordeon__button5:hover, .accordeon__button6:hover 
+      color: $or
+   .accordeon__button:after, .accordeon__button2:after, .accordeon__button3:after, .accordeon__button4:after, .accordeon__button5:after, .accordeon__button6:after 
+      content: ""
+      position: absolute
+      right: 0px
+      background: url(/img/arr.svg) no-repeat !important
+      width: 10px
+      left: inherit
+      height: 10px
+      top: 8px
+      bottom: inherit
+      margin-bottom: -20px
+      transition: all 0.5s ease
+   .accordeon__button.active:after, .accordeon__button2.active:after, .accordeon__button3.active:after, .accordeon__button4.active:after, .accordeon__button5.active:after, .accordeon__button6.active:after
+      content: ""
+      position: absolute
+      right: 0px
+      background: url(/img/arr.svg) no-repeat !important
+      width: 10px
+      left: inherit
+      height: 10px
+      bottom: 30%
+      margin-bottom: -20px
+      transition: all 0.5s ease
+      transform: rotate(180deg)
+      -webkit-transform: rotate(180deg)
+   .accordeon__panel, .accordeon__panel2, .accordeon__panel3, .accordeon__panel4, .accordeon__panel5, .accordeon__panel6
+      max-height: 0
+      overflow: hidden
+      margin-left: 0
+      transition: all 0.5s ease
+   .panel__text, .panel__text2, .panel__text3, .panel__text4, .panel__text5, .panel__text6
+      list-style-type: none
+      padding-top: 0px
+      max-width: 688px
+      margin-top: 20px
+   .panel__info
+      font-weight: 300
+      font-size: 16px
+      line-height: 140%
+      margin-bottom: 20px
+      &:last-child
+         margin-bottom: 0
+   .accordeon2
+      border-bottom: none
+      padding-bottom: 0
+   &__btn 
+      width: 100%
+      height: 53.082px
+   &__link 
+      margin: 19px auto 0 
+      color: #ACACAC
+      font-family: 'Montserrat', sans-serif
+      font-size: 14px
+      font-style: normal
+      font-weight: 400
+      display: block
+      text-align: center
+      line-height: 28px
+   .buy__item
+      width: 30.8%
+      margin-bottom: 60px
+      margin-right: 40px
+      &:nth-child(3n)
+         margin-right: 0
+   .art__bottom
+      margin: 40px 0 115px
+   .buy__box 
+      margin-top: 40px
+   .art__top
+      margin-bottom: 0
+.projects 
+   &__top 
+      align-items: center
+      justify-content: space-between
+   .sub 
+      margin-top: 10px
+   .buy__row
+      margin-top: 50px
+   &__wrap 
+      width: 22.559%
+      .buy__block
+         width: 100%
+         height: 267px
+   &__btn 
+      width: 100%
+      height: 60px
+      margin-top: 32px
+   .buy__box
+      margin-top: 80px
+      padding-bottom: 90px

@@ -38,6 +38,201 @@ document.addEventListener("DOMContentLoaded", () => {
 
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  var accordeonButtons2 = document.getElementsByClassName("accordeon__button2");
+
+  //пишем событие при клике на кнопки - вызов функции toggle
+  for (var i = 0; i < accordeonButtons2.length; i++) {
+    var accordeonButton2 = accordeonButtons2[i];
+
+    accordeonButton2.addEventListener("click", toggleItems, false);
+  }
+
+  //пишем функцию
+  function toggleItems() {
+
+    // переменная кнопки(актульная) с классом
+    var itemClass2 = this.className;
+
+    // добавляем всем кнопкам класс close
+    for (var i = 0; i < accordeonButtons2.length; i++) {
+      accordeonButtons2[i].className = "accordeon__button2 closed";
+    }
+
+    // закрываем все открытые панели с текстом
+    var pannels2 = document.getElementsByClassName("accordeon__panel2");
+    for (var z = 0; z < pannels2.length; z++) {
+      pannels2[z].style.maxHeight = 0;
+    }
+
+    // проверка. если кнопка имеет класс close при нажатии
+    // к актуальной(нажатой) кнопке добававляем активный класс
+    // а панели - которая находится рядом задаем высоту
+    if (itemClass2 == "accordeon__button2 closed") {
+      this.className = "accordeon__button2 active";
+      var panel2 = this.nextElementSibling;
+      panel2.style.maxHeight = panel2.scrollHeight + "px";
+    }
+
+  }
+
+});
+document.addEventListener("DOMContentLoaded", () => {
+  var accordeonButtons3 = document.getElementsByClassName("accordeon__button3");
+
+  //пишем событие при клике на кнопки - вызов функции toggle
+  for (var i = 0; i < accordeonButtons3.length; i++) {
+    var accordeonButton3 = accordeonButtons3[i];
+
+    accordeonButton3.addEventListener("click", toggleItems, false);
+  }
+
+  //пишем функцию
+  function toggleItems() {
+
+    // переменная кнопки(актульная) с классом
+    var itemClass3 = this.className;
+
+    // добавляем всем кнопкам класс close
+    for (var i = 0; i < accordeonButtons3.length; i++) {
+      accordeonButtons3[i].className = "accordeon__button3 closed";
+    }
+
+    // закрываем все открытые панели с текстом
+    var pannels3 = document.getElementsByClassName("accordeon__panel3");
+    for (var z = 0; z < pannels3.length; z++) {
+      pannels3[z].style.maxHeight = 0;
+    }
+
+    // проверка. если кнопка имеет класс close при нажатии
+    // к актуальной(нажатой) кнопке добававляем активный класс
+    // а панели - которая находится рядом задаем высоту
+    if (itemClass3 == "accordeon__button3 closed") {
+      this.className = "accordeon__button3 active";
+      var panel3 = this.nextElementSibling;
+      panel3.style.maxHeight = panel3.scrollHeight + "px";
+    }
+
+  }
+
+});
+document.addEventListener("DOMContentLoaded", () => {
+  var accordeonButtons4 = document.getElementsByClassName("accordeon__button4");
+
+  //пишем событие при клике на кнопки - вызов функции toggle
+  for (var i = 0; i < accordeonButtons4.length; i++) {
+    var accordeonButton4 = accordeonButtons4[i];
+
+    accordeonButton4.addEventListener("click", toggleItems, false);
+  }
+
+  //пишем функцию
+  function toggleItems() {
+
+    // переменная кнопки(актульная) с классом
+    var itemClass4 = this.className;
+
+    // добавляем всем кнопкам класс close
+    for (var i = 0; i < accordeonButtons4.length; i++) {
+      accordeonButtons4[i].className = "accordeon__button4 closed";
+    }
+
+    // закрываем все открытые панели с текстом
+    var pannels4 = document.getElementsByClassName("accordeon__panel4");
+    for (var z = 0; z < pannels4.length; z++) {
+      pannels4[z].style.maxHeight = 0;
+    }
+
+    // проверка. если кнопка имеет класс close при нажатии
+    // к актуальной(нажатой) кнопке добававляем активный класс
+    // а панели - которая находится рядом задаем высоту
+    if (itemClass4 == "accordeon__button4 closed") {
+      this.className = "accordeon__button4 active";
+      var panel4 = this.nextElementSibling;
+      panel4.style.maxHeight = panel4.scrollHeight + "px";
+    }
+
+  }
+
+});
+document.addEventListener("DOMContentLoaded", () => {
+  var accordeonButtons5 = document.getElementsByClassName("accordeon__button5");
+
+  //пишем событие при клике на кнопки - вызов функции toggle
+  for (var i = 0; i < accordeonButtons5.length; i++) {
+    var accordeonButton5 = accordeonButtons5[i];
+
+    accordeonButton5.addEventListener("click", toggleItems, false);
+  }
+
+  //пишем функцию
+  function toggleItems() {
+
+    // переменная кнопки(актульная) с классом
+    var itemClass5 = this.className;
+
+    // добавляем всем кнопкам класс close
+    for (var i = 0; i < accordeonButtons5.length; i++) {
+      accordeonButtons5[i].className = "accordeon__button5 closed";
+    }
+
+    // закрываем все открытые панели с текстом
+    var pannels5 = document.getElementsByClassName("accordeon__panel5");
+    for (var z = 0; z < pannels5.length; z++) {
+      pannels5[z].style.maxHeight = 0;
+    }
+
+    // проверка. если кнопка имеет класс close при нажатии
+    // к актуальной(нажатой) кнопке добававляем активный класс
+    // а панели - которая находится рядом задаем высоту
+    if (itemClass5 == "accordeon__button5 closed") {
+      this.className = "accordeon__button5 active";
+      var panel5 = this.nextElementSibling;
+      panel5.style.maxHeight = panel5.scrollHeight + "px";
+    }
+
+  }
+
+});
+document.addEventListener("DOMContentLoaded", () => {
+  var accordeonButtons6 = document.getElementsByClassName("accordeon__button6");
+
+  //пишем событие при клике на кнопки - вызов функции toggle
+  for (var i = 0; i < accordeonButtons6.length; i++) {
+    var accordeonButton6 = accordeonButtons6[i];
+
+    accordeonButton6.addEventListener("click", toggleItems, false);
+  }
+
+  //пишем функцию
+  function toggleItems() {
+
+    // переменная кнопки(актульная) с классом
+    var itemClass6 = this.className;
+
+    // добавляем всем кнопкам класс close
+    for (var i = 0; i < accordeonButtons6.length; i++) {
+      accordeonButtons6[i].className = "accordeon__button6 closed";
+    }
+
+    // закрываем все открытые панели с текстом
+    var pannels6 = document.getElementsByClassName("accordeon__panel6");
+    for (var z = 0; z < pannels6.length; z++) {
+      pannels6[z].style.maxHeight = 0;
+    }
+
+    // проверка. если кнопка имеет класс close при нажатии
+    // к актуальной(нажатой) кнопке добававляем активный класс
+    // а панели - которая находится рядом задаем высоту
+    if (itemClass6 == "accordeon__button6 closed") {
+      this.className = "accordeon__button6 active";
+      var panel6 = this.nextElementSibling;
+      panel6.style.maxHeight = panel6.scrollHeight + "px";
+    }
+
+  }
+
+});
 window.addEventListener("DOMContentLoaded", function () {
   document.getElementById('map__link').onclick = function () {
     document.getElementById('map__box').classList.add('height');
@@ -513,49 +708,32 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-// document.addEventListener("DOMContentLoaded", () => {
-//   const progressCircle = document.querySelector(".autoplay-progress svg");
-//   const progressContent = document.querySelector(".autoplay-progress span");
-//   var swiper = new Swiper(".swiper44", {
-//     slidesPerView: 4,
-//     spaceBetween: 70,
-//     loop: true,
-//     autoplay: {
-//       delay: 8450,
-//       disableOnInteraction: false
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next44",
-//       prevEl: ".swiper-button-prev44"
-//     },
-//     on: {
-//       autoplayTimeLeft(s, time, progress) {
-//         progressCircle.style.setProperty("--progress", 1 - progress);
-//         progressContent.textContent = `${Math.ceil(time / 1000)}s`;
-//       }
-//     },
-//     breakpoints: {
-//       // when window width is >= 320px
-//       320: {
-//         spaceBetween: 0,
-//         loop: true,
-//         slidesPerView: 1
-//       },
-//       767: {
-//         spaceBetween: 30,
-//         slidesPerView: 2
-//       },
-//       992: {
-//         spaceBetween: 40,
-//         slidesPerView: 3
-//       },
-//       1200: {
-//         spaceBetween: 70,
-//         slidesPerView: 4
-//       }
-//     }
-//   });
-// });
+document.addEventListener("DOMContentLoaded", () => {
+  var swiper7 = new Swiper(".swiper7", {
+    slidesPerView: 4,
+    spaceBetween: 39,
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        spaceBetween: 20,
+        loop: true,
+        slidesPerView: 1
+      },
+      767: {
+        spaceBetween: 30,
+        slidesPerView: 2
+      },
+      992: {
+        spaceBetween: 40,
+        slidesPerView: 3
+      },
+      1200: {
+        spaceBetween: 39,
+        slidesPerView: 4
+      }
+    }
+  });
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   let menuBtn = document.querySelector('.menu-btn');
@@ -571,6 +749,14 @@ document.addEventListener("DOMContentLoaded", () => {
   menuBtn2.addEventListener('click', function () {
     menuBtn2.classList.toggle('active');
     menu2.classList.toggle('active');
+  });
+});
+document.addEventListener("DOMContentLoaded", () => {
+  $('.plan__more').click(function (event) {
+    $(this).css('display', 'none');
+    $('.about__see').slideToggle();
+    $('.about__content').addClass('opened');
+    return false;
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
