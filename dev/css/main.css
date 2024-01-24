@@ -511,7 +511,7 @@ input:-moz-placeholder {
   transition: 0.2s;
   width: 20px;
   height: 20px;
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-color: #ffffff;
   max-width: 20px;
   margin-right: 14px;
@@ -519,7 +519,7 @@ input:-moz-placeholder {
   border: 1px solid white; }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.svg) no-repeat center center;
+  background: url(../img/check.svg) no-repeat center center;
   background-color: #FF822E;
   border: 1px solid #FF822E; }
 
@@ -635,7 +635,7 @@ input[type=number]::-webkit-outer-spin-button {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(/img/arr.svg) no-repeat !important;
+  background: url(../img/arr.svg) no-repeat !important;
   position: absolute;
   right: 18px;
   top: 23px; }
@@ -878,7 +878,7 @@ picture img {
   content: '';
   position: absolute;
   right: 12px;
-  background: url(/img/plus.svg) no-repeat;
+  background: url(../img/plus.svg) no-repeat;
   width: 20px;
   left: inherit;
   height: 28px;
@@ -890,7 +890,7 @@ picture img {
   content: '';
   position: absolute;
   right: 12px;
-  background: url(/img/minus.svg) no-repeat;
+  background: url(../img/minus.svg) no-repeat;
   width: 20px;
   left: inherit;
   height: 28px;
@@ -1158,7 +1158,7 @@ picture img {
   right: 28%;
   width: 30px;
   height: 30px;
-  background: url(/img/close.svg) no-repeat !important; }
+  background: url(../img/close.svg) no-repeat !important; }
   .menu-btn2.active .svg {
     display: none; }
 
@@ -1691,7 +1691,7 @@ picture img {
       content: "";
       display: block;
       position: absolute;
-      background: url(/img/ot1.svg) no-repeat;
+      background: url(../img/ot1.svg) no-repeat;
       top: -20px;
       left: -27px;
       width: 45px;
@@ -1700,7 +1700,7 @@ picture img {
       content: "";
       display: block;
       position: absolute;
-      background: url(/img/ot2.svg) no-repeat;
+      background: url(../img/ot2.svg) no-repeat;
       bottom: -6px;
       right: 2px;
       width: 45px;
@@ -3052,6 +3052,8 @@ picture img {
     margin-bottom: 17px; }
   .cat__box {
     margin-top: 60px; }
+  .cat__items {
+    width: 100%; }
   .cat__content {
     align-items: flex-start;
     justify-content: space-between;
@@ -3099,7 +3101,7 @@ picture img {
     content: "";
     position: absolute;
     right: 0px;
-    background: url(/img/arr.svg) no-repeat !important;
+    background: url(../img/arr.svg) no-repeat !important;
     width: 10px;
     left: inherit;
     height: 10px;
@@ -3111,7 +3113,7 @@ picture img {
     content: "";
     position: absolute;
     right: 0px;
-    background: url(/img/arr.svg) no-repeat !important;
+    background: url(../img/arr.svg) no-repeat !important;
     width: 10px;
     left: inherit;
     height: 10px;
@@ -3301,7 +3303,7 @@ picture img {
     right: inherit;
     left: 2%;
     z-index: 31;
-    background: url(/img/burger.svg) no-repeat center center;
+    background: url(../img/burger.svg) no-repeat center center;
     overflow: hidden; }
   .menu-btn span {
     width: 38px;
